@@ -1,14 +1,6 @@
 # tello-openpose
 Using OpenPose with the Tello Drone to make selfies. This program gets the video stream from the Tello camera, processes it to make the drone follow the person's face and recognize poses to control the drone.  
 
-Video demonstration here : __[Tello drone and computer vision: selfie air stick](https://youtu.be/RHRQoaqQIgo)__
-
-<img src="media/capture.png" alt="Selfie air stick"  title="Selfie air stick" />
-
-Warning : this is just my exploration of a few computer vision techniques that can be used with a Tello drone. I did it for the fun and didn't try to make a finalized, well packaged product. So sorry for the non-optimized code and the lack of comments :-) 
-
-Tested only on Ubuntu 18.04. **You need a powerful nvidia GPU to run Openpose fast enough.** A GTX 1080Ti was used here. Probably, a less powerful GPU can also work, but you will get a lower "frames/second" and will need to tune the PID controller parameters.
-
 ## Libraries and packages
 
 ### OpenCV, pynput, pygame : 
